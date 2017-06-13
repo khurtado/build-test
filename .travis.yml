@@ -11,3 +11,4 @@ deploy:
   file: 'hello.exe'
   on:
     tags: true
+    condition: "$TRAVIS_TAG =~ ^vc3.*$"
