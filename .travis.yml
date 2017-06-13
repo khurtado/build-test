@@ -1,5 +1,8 @@
 language: cpp
 sudo: false
+services:
+  - docker
+
 script: ./build.sh
 deploy:
   provider: releases
