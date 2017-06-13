@@ -1,0 +1,9 @@
+language: cpp
+
+sudo: false
+
+script: build.sh
+
+branches:
+    only:
+        - master
